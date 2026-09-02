@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EcoHome AI helps households make simple, practical sustainable choices." />
+  <title>EcoHome AI | Small Actions. Greener Homes.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home"><span>🌱</span> EcoHome <b>AI</b></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#actions">Actions</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#assistant">AI Assistant</a>
+      <a href="#impact">Impact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">AI × Sustainability × Everyday Life</span>
+        <h1>Small actions.<br><span>Greener homes.</span></h1>
+        <p>EcoHome AI gives families simple ideas to save water, energy and resources—one practical action at a time.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#assistant">Try the AI Assistant →</a>
+          <a class="btn secondary" href="#calculator">Calculate my impact</a>
+        </div>
+        <div class="trust-row">
+          <span>💧 Save water</span><span>⚡ Save energy</span><span>♻️ Reduce waste</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="orb">🌍</div>
+        <h3>Your home can make a difference.</h3>
+        <p>Start with one change today.</p>
+        <div class="mini-stats"><div><strong id="heroPoints">0</strong><small>points earned</small></div><div><strong id="heroActions">0</strong><small>actions taken</small></div></div>
+      </div>
+    </section>
+
+    <section id="actions" class="section">
+      <div class="section-head">
+        <span class="eyebrow">01 · SIMPLE ACTIONS</span>
+        <h2>Choose your green starting point</h2>
+        <p>Small habits become meaningful when we repeat them.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">💧</div><h3>Save Water</h3>
+          <p>Fix leaks, use a bucket when practical, and consider rainwater harvesting.</p>
+          <button class="action-btn" data-points="10">Take this action +10</button>
+        </article>
+        <article class="card">
+          <div class="icon">⚡</div><h3>Save Energy</h3>
+          <p>Switch off unused appliances, use efficient lighting and make the most of daylight.</p>
+          <button class="action-btn" data-points="10">Take this action +10</button>
+        </article>
+        <article class="card">
+          <div class="icon">♻️</div><h3>Reduce Waste</h3>
+          <p>Separate wet and dry waste and reuse items before throwing them away.</p>
+          <button class="action-btn" data-points="10">Take this action +10</button>
+        </article>
+        <article class="card">
+          <div class="icon">🌿</div><h3>Grow Green</h3>
+          <p>Grow plants where possible and choose native or low-water plants for your area.</p>
+          <button class="action-btn" data-points="10">Take this action +10</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="calculator" class="section alt">
+      <div class="section-head">
+        <span class="eyebrow">02 · IMPACT CALCULATOR</span>
+        <h2>Estimate your weekly green score</h2>
+        <p>This simple educational score is not a scientific carbon or water footprint calculation.</p>
+      </div>
+      <div class="calculator">
+        <label>How often do you separate waste?
+          <select id="waste"><option value="0">Rarely</option><option value="10">Sometimes</option><option value="20">Usually</option><option value="30">Always</option></select>
+        </label>
+        <label>How often do you switch off unused appliances?
+          <select id="energy"><option value="0">Rarely</option><option value="10">Sometimes</option><option value="20">Usually</option><option value="30">Always</option></select>
+        </label>
+        <label>How often do you actively save water?
+          <select id="water"><option value="0">Rarely</option><option value="10">Sometimes</option><option value="20">Usually</option><option value="30">Always</option></select>
+        </label>
+        <button class="btn primary" id="calculate">Calculate my score</button>
+        <div class="score" id="scoreBox"><strong id="score">0</strong><span>/ 90 green points</span><p id="scoreMessage">Answer the questions to see your score.</p></div>
+      </div>
+    </section>
+
+    <section id="assistant" class="section">
+      <div class="section-head">
+        <span class="eyebrow">03 · AI ECO ASSISTANT</span>
+        <h2>Ask for a simple green idea</h2>
+        <p>Try: “I waste too much water” or “How can I reduce plastic at home?”</p>
+      </div>
+      <div class="assistant">
+        <div class="chat" id="chat">
+          <div class="bubble bot">Hi! 🌱 Tell me one sustainability problem at home and I'll suggest a simple next step.</div>
+        </div>
+        <form id="chatForm" class="chat-form">
+          <input id="userInput" placeholder="Type your home sustainability problem..." autocomplete="off" />
+          <button class="btn primary" type="submit">Ask AI</button>
+        </form>
+        <small class="note">Demo assistant: this version uses local JavaScript rules, so no API key or paid AI service is required.</small>
+      </div>
+    </section>
+
+    <section id="impact" class="section impact">
+      <div>
+        <span class="eyebrow">04 · YOUR IMPACT</span>
+        <h2>Progress grows from consistency.</h2>
+        <p>Every completed action adds points locally in your browser. Use this as a simple motivation tool.</p>
+      </div>
+      <div class="impact-number"><strong id="impactPoints">0</strong><span>green points</span></div>
+    </section>
+
+    <!-- PRIVACY & TRUST -->
+    <section id="privacy" class="section privacy">
+      <div class="section-head">
+        <span class="eyebrow">05 · PRIVACY & TRUST</span>
+        <h2>Your privacy matters.</h2>
+        <p>
+          EcoHome AI is designed as a simple, privacy-friendly
+          sustainability learning tool.
+        </p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🔒</div>
+          <h3>Privacy-friendly</h3>
+          <p>
+            The calculator and green points work locally in your
+            browser. No account is required for the basic features.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🤖</div>
+          <h3>Transparent AI</h3>
+          <p>
+            The current AI Assistant uses local JavaScript rules.
+            No external AI API or paid AI service is required.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Your information</h3>
+          <p>
+            We do not sell your personal information. If third-party
+            services are added in the future, this notice will be updated.
+          </p>
+        </article>
+      </div>
+
+      <div class="privacy-note">
+        <strong>Transparency notice</strong>
+        <p>
+          EcoHome AI is currently a learning and educational project.
+          The green score is for awareness and motivation, not a
+          scientific carbon or water footprint calculation.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div><strong>🌱 EcoHome AI</strong><p>Technology that helps people make greener everyday choices.</p></div>
+    <div class="footer-links"><a href="#home">Home</a><a href="#actions">Actions</a><a href="#assistant">Assistant</a></div>
+    <p class="copyright">Built for learning, creativity and positive impact.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

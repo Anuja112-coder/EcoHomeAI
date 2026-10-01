@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>10 Easy Ways to Make Your Home More Eco-Friendly | EcoHome AI</title>
+
+  <meta name="description"
+        content="Discover 10 simple and practical ways to make your home more eco-friendly, save resources, reduce waste, and build greener daily habits.">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      background: #f5f8f3;
+      color: #26352a;
+    }
+
+    header {
+      background: #2f6b3f;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    article {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+    }
+
+    h2 {
+      color: #2f6b3f;
+      margin-top: 28px;
+    }
+
+    .intro {
+      font-size: 18px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #2f6b3f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .checklist {
+      background: #eef6ed;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+    }
+
+    @media (max-width: 600px) {
+      article {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>EcoHome AI</h1>
+  <p>Simple Ideas for a Greener Home</p>
+</header>
+
+<div class="container">
+
+  <a class="back" href="index.html">← Back to EcoHome AI</a>
+
+  <article>
+
+    <h1>10 Easy Ways to Make Your Home More Eco-Friendly 🌱</h1>
+
+    <p class="intro">
+      Creating an eco-friendly home does not have to be expensive or difficult.
+      Small daily changes can help reduce waste, save resources, and create
+      better habits at home.
+    </p>
+
+    <h2>1. Save Electricity ⚡</h2>
+    <p>
+      Turn off lights, fans, and appliances when you are not using them.
+      Choosing LED bulbs can also help reduce electricity consumption.
+    </p>
+
+    <h2>2. Save Water 💧</h2>
+    <p>
+      Turn off the tap while brushing your teeth and fix leaking taps.
+      Simple water-saving habits can make a difference over time.
+    </p>
+
+    <h2>3. Reduce Plastic ♻️</h2>
+    <p>
+      Choose reusable bags, bottles, and containers instead of
+      single-use plastic products whenever practical.
+    </p>
+
+    <h2>4. Separate Your Waste</h2>
+    <p>
+      Keep wet waste, dry waste, and recyclable materials separate.
+      This makes recycling and composting easier.
+    </p>
+
+    <h2>5. Try Composting 🌱</h2>
+    <p>
+      Vegetable peels and other suitable kitchen scraps can be composted
+      instead of being thrown away.
+    </p>
+
+    <h2>6. Reuse Before Buying</h2>
+    <p>
+      Before buying something new, check whether an existing item can be
+      repaired, reused, or repurposed.
+    </p>
+
+    <h2>7. Grow Some Plants</h2>
+    <p>
+      Even a small balcony or window garden can bring more greenery
+      into your living space.
+    </p>
+
+    <h2>8. Choose Reusable Products</h2>
+    <p>
+      Reusable household products can help reduce the amount of waste
+      created by disposable items.
+    </p>
+
+    <h2>9. Use Natural Light ☀️</h2>
+    <p>
+      Open curtains and use daylight whenever possible instead of
+      switching on lights during the day.
+    </p>
+
+    <h2>10. Start Small</h2>
+    <p>
+      You do not need to change everything at once. Choose one
+      eco-friendly habit and make it part of your daily routine.
+    </p>
+
+    <div class="checklist">
+
+      <h2>🌍 EcoHome Checklist</h2>
+
+      <p>☐ Turn off unused lights and appliances</p>
+      <p>☐ Save water</p>
+      <p>☐ Reduce single-use plastic</p>
+      <p>☐ Separate household waste</p>
+      <p>☐ Reuse and repair items</p>
+      <p>☐ Grow plants</p>
+
+    </div>
+
+    <h2>Small Actions Matter</h2>
+
+    <p>
+      An eco-friendly home starts with simple choices. You can begin
+      with one small change today and gradually build greener habits
+      into your everyday life.
+    </p>
+
+  </article>
+
+</div>
+
+<footer>
+  <p>© 2026 EcoHome AI</p>
+</footer>
+
+</body>
+</html>
